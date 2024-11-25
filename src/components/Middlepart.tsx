@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Middlepart.css";
+import "../styles/middlepart.css";
 
 const Middlepart = () => {
   return (
