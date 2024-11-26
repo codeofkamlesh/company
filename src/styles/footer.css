@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(21, 98, 122);
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .footer {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .footer {
+      font-size: 16px;
+    }
+  }
+  
